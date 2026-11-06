@@ -1,172 +1,116 @@
-# Project Description
+
+# System Request
 
 ## Mobile Shop Management System
 
-### 1. Project Overview
+### 1. Project Sponsor
 
-We are planning a **Mobile Shop Management System** to help a mobile
-phone shop organize its daily operations. The proposed system will
-centralize product information, inventory, sales, purchases, suppliers,
-users, and management reports.
+**Project Sponsor:** Mobile Shop Owner / Store Manager.
 
-### 2. Project Objectives
+The shop owner or store manager is responsible for requesting the proposed system, approving project objectives, providing resources, setting priorities, and reviewing project progress.
 
--   Organize mobile phones and accessories in one system.
--   Track available stock quantities.
--   Record sales and purchases.
--   Reduce manual data-entry and calculation errors.
--   Improve product searches and customer service.
--   Generate sales and inventory reports.
--   Control access according to employee roles.
+### 2. Business Need
 
-### 3. Intended Users
+The mobile phone shop needs a centralized management system to organize its daily operations.
 
-  -----------------------------------------------------------------------
-  User                                Main responsibilities
-  ----------------------------------- -----------------------------------
-  Shop Owner                          Review reports, monitor sales and
-                                      inventory, and manage access.
+The current manual methods may cause:
+- Difficulty tracking product quantities.
+- Errors when recording sales and purchases.
+- Delays when searching for products.
+- Difficulty preparing reports.
+- Problems monitoring supplier information.
+- Extra time spent on manual calculations.
 
-  Store Manager                       Manage products and prices, monitor
-                                      stock, and review daily operations.
+### 3. Business Requirements
 
-  Sales Employee                      Search for products, check
-                                      availability, record sales, and
-                                      issue receipts.
+The proposed system should provide the following capabilities:
 
-  Inventory Employee                  Record received products, update
-                                      quantities, and monitor low stock.
-  -----------------------------------------------------------------------
+**Product Management**
+- Add, update, delete, and search for products.
+- Store product names, brands, models, specifications, and prices.
 
-### 4. Main System Modules
+**Inventory Management**
+- Track available product quantities.
+- Update stock after sales and purchases.
+- Identify products with low stock.
 
-#### Product Management
+**Sales Management**
+- Record customer transactions.
+- Calculate sales totals.
+- Record payment information.
+- Generate customer receipts.
 
--   Add, edit, remove, and search for products.
--   Store product name, brand, model, specifications, and price.
+**Supplier and Purchase Management**
+- Store supplier information.
+- Record purchase transactions.
+- Update inventory after receiving products.
 
-#### Inventory Management
+**User Management**
+- Create employee accounts.
+- Assign permissions according to user roles.
+- Restrict access to authorized users.
 
--   Track available quantities.
--   Update stock after purchases and sales.
--   Identify products that reach a low-stock threshold.
+**Reports Management**
+- Generate daily and monthly sales reports.
+- Generate inventory reports.
+- Generate purchase reports.
 
-#### Sales Management
+### 4. Business Value
 
--   Record sales transactions.
--   Calculate the total amount.
--   Record payment details.
--   Generate customer receipts.
+The proposed system is expected to provide:
 
-#### Supplier and Purchase Management
+- Faster sales transactions.
+- Improved customer service.
+- More accurate inventory records.
+- Reduced manual errors.
+- Better product availability tracking.
+- Less time spent preparing reports.
+- Improved business decisions.
+- More organized daily operations.
 
--   Store supplier information.
--   Record purchases.
--   Update inventory after products are received.
+### 5. Special Issues and Constraints
 
-#### Reports
+#### 5.1 Budget
 
--   Daily and monthly sales reports.
--   Inventory reports.
--   Purchase reports.
+The project must operate within a budget approved by the shop owner. Development, hardware, software, training, and maintenance costs should be considered.
 
-#### User Management
+The exact budget is not yet confirmed.
 
--   Create employee accounts.
--   Assign permissions according to job roles.
--   Restrict access to authorized users.
+#### 5.2 Time
 
-### 5. Proposed Real-Life Workflow
+The project should follow an agreed schedule covering planning, analysis, design, development, testing, and deployment.
 
-1.  The manager adds products and their details to the system.
-2.  When new products arrive, the responsible employee records the
-    purchase and supplier.
-3.  Inventory is updated after the products are received.
-4.  A sales employee searches for the product requested by a customer.
-5.  The employee checks availability and records the sale.
-6.  The system calculates the total and generates a receipt.
-7.  The system updates stock after the sale.
-8.  The owner or manager reviews sales and inventory reports.
+The final deadline is still to be determined.
 
-### 6. Project Team and Responsibilities
+#### 5.3 Legal and Security Requirements
 
-The team names below are fictional sample names created for this project
-document.
+- Protect customer and business information.
+- Allow access only to authorized employees.
+- Use appropriate account permissions.
+- Maintain accurate business records.
 
-  -----------------------------------------------------------------------
-  Team member       Role              Assigned tasks    Current status
-  ----------------- ----------------- ----------------- -----------------
-  Youssef Ahmed     Project           Coordinate the    In Progress
-                    Coordinator &     team, collect     
-                    System Analyst    requirements,     
-                                      write the project 
-                                      documents, and    
-                                      follow up on      
-                                      tasks.            
+#### 5.4 Integration
 
-  Omar Mahmoud      Business Analyst  Analyze the shop  In Progress
-                                      workflow,         
-                                      identify business 
-                                      problems, and     
-                                      document user     
-                                      requirements.     
+The system may need to support existing shop devices such as computers, barcode scanners, receipt printers, and supported payment services.
 
-  Mariam Ali        UI/UX Designer    Prepare the       In Progress
-                                      system screen     
-                                      layouts and       
-                                      design a simple   
-                                      interface for     
-                                      shop employees.   
+Exact integrations will be confirmed during analysis.
 
-  Karim Hassan      Database Designer Identify database In Progress
-                                      entities and      
-                                      prepare the       
-                                      product, sales,   
-                                      supplier, and     
-                                      inventory         
-                                      database design.  
+#### 5.5 Performance
 
-  Salma Mostafa     Testing &         Prepare test      In Progress
-                    Documentation     scenarios,        
-                                      organize project  
-                                      files, and record 
-                                      issues and        
-                                      updates.          
-  -----------------------------------------------------------------------
+The system should:
+- Search for products quickly.
+- Process sales without unnecessary delays.
+- Support expected daily transactions.
+- Maintain accurate inventory information.
 
-### 7. Current Project Progress
+### 6. Project Approval
 
-  -----------------------------------------------------------------------
-  Task                    Responsible member      Status
-  ----------------------- ----------------------- -----------------------
-  Identify the current    Youssef Ahmed & Omar    In Progress
-  business problem        Mahmoud                 
+The shop owner or authorized manager should review and approve the proposed requirements before detailed design and implementation begin.
 
-  Prepare project         Youssef Ahmed & Omar    In Progress
-  description and         Mahmoud                 
-  requirements                                    
+### 7. Current Status
 
-  Draft interface layouts Mariam Ali              In Progress
+**Project Phase:** Planning and Requirements Analysis.
 
-  Identify database       Karim Hassan            In Progress
-  entities and                                    
-  relationships                                   
+**Document Status:** Initial System Request prepared for review.
 
-  Prepare documentation   Salma Mostafa           In Progress
-  structure and test                              
-  scenarios                                       
-  -----------------------------------------------------------------------
-
-### 8. Next Planned Tasks
-
--   Confirm the shop's actual workflow and requirements.
--   Conduct the feasibility study.
--   Prepare Use Case and Data Flow diagrams.
--   Design the Entity Relationship Diagram (ERD).
--   Design the database and user interface.
--   Implement and test the system.
-
-### 9. Project Status
-
-**Current phase:** Planning and requirements analysis. Development,
-testing, and deployment are planned future stages.
+The budget, final deadline, integrations, and detailed performance targets remain to be confirmed.
