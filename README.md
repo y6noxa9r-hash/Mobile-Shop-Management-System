@@ -1,50 +1,81 @@
+
 # Mobile Shop Management System
 
-A student project proposing a centralized system for managing a mobile
-phone shop's products, inventory, sales, purchases, suppliers, users,
-and reports.
+## Project Overview
 
-## Project status
+The Mobile Shop Management System is a student project that proposes a centralized platform for managing a mobile phone shop.
 
-**Current phase:** Planning and requirements analysis.
+The proposed system aims to organize products, inventory, sales, purchases, suppliers, employees, and business reports.
 
-This repository currently contains the initial project documentation. It
-does not claim that the software has already been implemented.
+## Project Objectives
 
-## Documentation
+- Improve daily shop management.
+- Organize product information.
+- Track inventory quantities.
+- Manage sales and purchases.
+- Reduce manual errors.
+- Generate business reports.
+- Improve customer service.
 
-1.  [Current Problem](01_Current_Problem.md) --- business challenges the
-    project aims to address.
-2.  [Project Description](02_Project_Description.md) --- objectives,
-    users, modules, workflow, team responsibilities, and task progress.
-3.  [System Request](03_System_Request.md) --- sponsor, business need,
-    requirements, business value, and constraints.
+## Project Status
 
-## Proposed modules
+**Current Phase:** Planning and Requirements Analysis.
 
--   Product Management
--   Inventory Management
--   Sales Management
--   Supplier and Purchase Management
--   Reports
--   User Management
+**Development Status:** Not yet implemented.
 
-## Team
+This repository currently contains the initial project documentation. Software development, testing, and deployment are planned future stages.
 
-The Project Description contains a sample team roster with fictional
-names and assigned responsibilities. Replace them if your course
-requires your real team details.
+## Project Documentation
 
-## Important note
+| File | Description |
+|---|---|
+| 01_Current_Problem.md | Describes existing shop management problems. |
+| 02_Project_Description.md | Explains project objectives, users, modules, workflow, and team responsibilities. |
+| 03_System_Request.md | Describes the project sponsor, business needs, requirements, business value, and constraints. |
 
-The current problem description is a project scenario. Validate it with
-the shop owner or employees before presenting it as confirmed real-world
-research.
+## Main System Modules
 
-## Next steps
+1. Product Management
+2. Inventory Management
+3. Sales Management
+4. Supplier and Purchase Management
+5. Reports Management
+6. User Management
 
--   Confirm the current workflow and business problems.
--   Approve requirements with the shop owner or supervisor.
--   Prepare the feasibility study and system diagrams.
--   Design the database and user interface.
--   Implement, test, and document the system.
+## Project Team
+
+The project is organized into five main responsibilities:
+
+1. Project Manager
+2. System Analyst
+3. UI/UX Designer
+4. Database Designer
+5. Documentation and Testing
+
+Actual team member names will be added after confirmation.
+
+## Development Roadmap
+
+- [x] Initial project documentation
+- [x] Current problem description
+- [x] Project description
+- [x] System request
+- [ ] Feasibility study
+- [ ] Requirements analysis
+- [ ] Use Case and DFD diagrams
+- [ ] Database design (ERD)
+- [ ] User interface design
+- [ ] System development
+- [ ] Testing and evaluation
+
+## Important Note
+
+This project is currently a proposed system under planning and analysis. The documentation describes the intended system and does not claim that all features have already been implemented.
+
+---
+
+**Project:** Mobile Shop Management System
+
+**Project Type:** Student Academic Project
+
+**Current Phase:** Planning and Requirements Analysis
