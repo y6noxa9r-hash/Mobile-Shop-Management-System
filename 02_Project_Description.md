@@ -1,172 +1,124 @@
+
 # Project Description
 
 ## Mobile Shop Management System
 
 ### 1. Project Overview
 
-We are planning a **Mobile Shop Management System** to help a mobile
-phone shop organize its daily operations. The proposed system will
-centralize product information, inventory, sales, purchases, suppliers,
-users, and management reports.
+The Mobile Shop Management System is a proposed student project designed to organize and improve the daily operations of a mobile phone shop.
+
+The system will provide a centralized platform for managing mobile phones, accessories, inventory, sales, purchases, suppliers, employees, and reports.
+
+**Current Phase:** Planning and Requirements Analysis.
 
 ### 2. Project Objectives
 
--   Organize mobile phones and accessories in one system.
--   Track available stock quantities.
--   Record sales and purchases.
--   Reduce manual data-entry and calculation errors.
--   Improve product searches and customer service.
--   Generate sales and inventory reports.
--   Control access according to employee roles.
+- Organize all mobile phone and accessory information.
+- Monitor available product quantities.
+- Record sales and purchase transactions.
+- Reduce manual errors and save time.
+- Improve customer service.
+- Generate accurate sales and inventory reports.
+- Manage employee accounts and permissions.
 
 ### 3. Intended Users
 
-  -----------------------------------------------------------------------
-  User                                Main responsibilities
-  ----------------------------------- -----------------------------------
-  Shop Owner                          Review reports, monitor sales and
-                                      inventory, and manage access.
-
-  Store Manager                       Manage products and prices, monitor
-                                      stock, and review daily operations.
-
-  Sales Employee                      Search for products, check
-                                      availability, record sales, and
-                                      issue receipts.
-
-  Inventory Employee                  Record received products, update
-                                      quantities, and monitor low stock.
-  -----------------------------------------------------------------------
+| User | Responsibilities |
+|---|---|
+| Shop Owner | Monitor business performance and review reports. |
+| Store Manager | Manage products, prices, and daily operations. |
+| Sales Employee | Search products, record sales, and issue receipts. |
+| Inventory Employee | Update stock and monitor product availability. |
+| System Administrator | Manage accounts, permissions, and system settings. |
 
 ### 4. Main System Modules
 
-#### Product Management
+#### 4.1 Product Management
+- Add new products.
+- Edit product information.
+- Delete unavailable or discontinued products.
+- Search by product name, brand, or model.
+- Store specifications and prices.
 
--   Add, edit, remove, and search for products.
--   Store product name, brand, model, specifications, and price.
+#### 4.2 Inventory Management
+- Track product quantities.
+- Update stock after purchases and sales.
+- Identify low-stock products.
+- Monitor product availability.
 
-#### Inventory Management
+#### 4.3 Sales Management
+- Record customer transactions.
+- Calculate total prices.
+- Record payment information.
+- Generate sales receipts.
+- Maintain sales history.
 
--   Track available quantities.
--   Update stock after purchases and sales.
--   Identify products that reach a low-stock threshold.
+#### 4.4 Supplier and Purchase Management
+- Store supplier information.
+- Record purchase transactions.
+- Track purchased products.
+- Update inventory after receiving products.
 
-#### Sales Management
+#### 4.5 Reports Management
+- Generate daily sales reports.
+- Generate monthly sales reports.
+- Display inventory reports.
+- Review purchase history.
 
--   Record sales transactions.
--   Calculate the total amount.
--   Record payment details.
--   Generate customer receipts.
+#### 4.6 User Management
+- Create employee accounts.
+- Assign permissions.
+- Control access according to user roles.
 
-#### Supplier and Purchase Management
+### 5. Proposed System Workflow
 
--   Store supplier information.
--   Record purchases.
--   Update inventory after products are received.
-
-#### Reports
-
--   Daily and monthly sales reports.
--   Inventory reports.
--   Purchase reports.
-
-#### User Management
-
--   Create employee accounts.
--   Assign permissions according to job roles.
--   Restrict access to authorized users.
-
-### 5. Proposed Real-Life Workflow
-
-1.  The manager adds products and their details to the system.
-2.  When new products arrive, the responsible employee records the
-    purchase and supplier.
-3.  Inventory is updated after the products are received.
-4.  A sales employee searches for the product requested by a customer.
-5.  The employee checks availability and records the sale.
-6.  The system calculates the total and generates a receipt.
-7.  The system updates stock after the sale.
-8.  The owner or manager reviews sales and inventory reports.
+1. The manager adds products to the system.
+2. The inventory employee records new purchases.
+3. The system updates product quantities.
+4. The sales employee searches for products.
+5. The employee checks product availability.
+6. The employee records the customer's purchase.
+7. The system calculates the total and generates a receipt.
+8. Inventory quantities are updated automatically.
+9. The owner reviews business reports.
 
 ### 6. Project Team and Responsibilities
 
-The team names below are fictional sample names created for this project
-document.
+The following is a sample five-member team structure. Names can be replaced with the actual team members.
 
-  -----------------------------------------------------------------------
-  Team member       Role              Assigned tasks    Current status
-  ----------------- ----------------- ----------------- -----------------
-  Youssef Ahmed     Project           Coordinate the    In Progress
-                    Coordinator &     team, collect     
-                    System Analyst    requirements,     
-                                      write the project 
-                                      documents, and    
-                                      follow up on      
-                                      tasks.            
+| Member | Role | Responsibilities |
+|---|---|---|
+| Member 1 | Project Manager | Coordinate the project and distribute tasks. |
+| Member 2 | System Analyst | Collect and analyze system requirements. |
+| Member 3 | UI/UX Designer | Design the system interface and screens. |
+| Member 4 | Database Designer | Design database tables and relationships. |
+| Member 5 | Documentation & Testing | Prepare documentation and test scenarios. |
 
-  Omar Mahmoud      Business Analyst  Analyze the shop  In Progress
-                                      workflow,         
-                                      identify business 
-                                      problems, and     
-                                      document user     
-                                      requirements.     
+### 7. Project Progress
 
-  Mariam Ali        UI/UX Designer    Prepare the       In Progress
-                                      system screen     
-                                      layouts and       
-                                      design a simple   
-                                      interface for     
-                                      shop employees.   
-
-  Karim Hassan      Database Designer Identify database In Progress
-                                      entities and      
-                                      prepare the       
-                                      product, sales,   
-                                      supplier, and     
-                                      inventory         
-                                      database design.  
-
-  Salma Mostafa     Testing &         Prepare test      In Progress
-                    Documentation     scenarios,        
-                                      organize project  
-                                      files, and record 
-                                      issues and        
-                                      updates.          
-  -----------------------------------------------------------------------
-
-### 7. Current Project Progress
-
-  -----------------------------------------------------------------------
-  Task                    Responsible member      Status
-  ----------------------- ----------------------- -----------------------
-  Identify the current    Youssef Ahmed & Omar    In Progress
-  business problem        Mahmoud                 
-
-  Prepare project         Youssef Ahmed & Omar    In Progress
-  description and         Mahmoud                 
-  requirements                                    
-
-  Draft interface layouts Mariam Ali              In Progress
-
-  Identify database       Karim Hassan            In Progress
-  entities and                                    
-  relationships                                   
-
-  Prepare documentation   Salma Mostafa           In Progress
-  structure and test                              
-  scenarios                                       
-  -----------------------------------------------------------------------
+| Task | Status |
+|---|---|
+| Identify current business problems | In Progress |
+| Prepare project description | In Progress |
+| Define system requirements | In Progress |
+| Design user interface | Planned |
+| Design database | Planned |
+| Develop system modules | Planned |
+| Test the system | Planned |
 
 ### 8. Next Planned Tasks
 
--   Confirm the shop's actual workflow and requirements.
--   Conduct the feasibility study.
--   Prepare Use Case and Data Flow diagrams.
--   Design the Entity Relationship Diagram (ERD).
--   Design the database and user interface.
--   Implement and test the system.
+- Complete requirements analysis.
+- Conduct a feasibility study.
+- Prepare Use Case diagrams.
+- Prepare Data Flow Diagrams (DFD).
+- Design the Entity Relationship Diagram (ERD).
+- Develop the database.
+- Implement system modules.
+- Test and evaluate the system.
 
-### 9. Project Status
+### 9. Current Project Status
 
-**Current phase:** Planning and requirements analysis. Development,
-testing, and deployment are planned future stages.
+The project is currently in the Planning and Requirements Analysis phase.
+
+The system has not yet been fully developed or implemented. Design, development, testing, and deployment are planned future activities.
